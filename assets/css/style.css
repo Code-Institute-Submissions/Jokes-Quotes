@@ -5,3 +5,30 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+.welcome {
+    color: #efa51aff;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    color: #0bafc1ff!important;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.nav-link:hover {
+    color: #0bafc1ff!important;
+}
+
+.jumbotron {
+    justify-content: center;
+    margin-top: 0px;
+    background-color:  white;
+    color:  #0a0a0aff;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
