@@ -48,3 +48,23 @@ body {
   background-color:  #efa51aff;
   color: white;
 }
+
+.quote-carousel {
+    margin-top: 50px;
+}
+
+.quotes {
+    margin-top: 20px;
+}
+
+#quote_btn {
+    margin-top: 25px;
+    color: #0bafc1ff;
+    border-style: solid;
+    border-color: #0bafc1ff;
+}
+
+#quote_btn:hover {
+    background-color: #0bafc1ff;
+    color: white;
+}
