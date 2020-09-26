@@ -32,3 +32,19 @@ body {
     padding: 5px;
     margin-bottom: 20px;
 }
+
+.jokes {
+    margin-top: 20px;
+}
+
+#joke_btn {
+    margin-top: 25px;
+    color: #efa51aff;
+    border-style: solid;
+    border-color: #efa51aff;
+}
+
+#joke_btn:hover {
+  background-color:  #efa51aff;
+  color: white;
+}
