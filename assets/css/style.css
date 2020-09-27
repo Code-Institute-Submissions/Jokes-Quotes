@@ -6,6 +6,8 @@ body {
     text-align: center;
 }
 
+/* ----------- Navbar -------------------------------------- */
+
 .navbar-brand {
     font-size: 35px;
     color: #0bafc1ff!important;
@@ -19,7 +21,8 @@ body {
     color: #0bafc1ff!important;
 }
 
-.welcome {
+/* ----------- Heading/Jumbotron --------------------------- */
+h2 {
     color: #efa51aff;
 }
 
@@ -32,6 +35,8 @@ body {
     padding: 5px;
     margin-bottom: 20px;
 }
+
+/* ----------- Jokes section --------------------------- */
 
 .jokes {
     margin-top: 20px;
@@ -49,6 +54,8 @@ body {
   background-color:  #efa51aff;
   color: white;
 }
+
+/* ----------- Quotes section --------------------------- */
 
 .quote-carousel {
     margin-top: 50px;
@@ -71,7 +78,9 @@ body {
     color: white;
 }
 
-.social_footer {
+/* -----------Social links footer--------------------------- */
+
+.social-footer-homepage {
     margin-top: 90px;
 }
 
@@ -84,23 +93,15 @@ body {
     color: #efa51aff;
 }
 
+/* ----------- Submissions Page--------------------------- */
+
 .submissions {
-    color: #efa51aff;
     margin-bottom: 10px;
 }
 
 .subs-copy {
     font-size: 20px;
-    margin-bottom: 40px;
-}
-
-.submission-form {
-    margin-top: 80px;
-}
-
-p.help-block {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 #submissions_btn {
@@ -118,5 +119,24 @@ p.help-block {
 }
 
 .subs-social-links {
-    margin-top: 30px;
+    margin-top: 90px;
+}
+/* ----------- Contact Page --------------------------- */
+
+#contact-submit-btn {
+    color: #efa51aff;
+    background-color: white;
+    border-style: solid;
+    border-color: #efa51aff;
+    outline-color: #efa51aff;
+    border-radius: 35px;
+}
+
+#contact-submit-btn:hover {
+    background-color:  #efa51aff;
+    color: white;
+}
+.contact-copy {
+    font-size: 20px;
+    margin-bottom: 60px;
 }
