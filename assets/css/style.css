@@ -6,10 +6,6 @@ body {
     text-align: center;
 }
 
-.welcome {
-    color: #efa51aff;
-}
-
 .navbar-brand {
     font-size: 35px;
     color: #0bafc1ff!important;
@@ -21,6 +17,10 @@ body {
 
 .nav-link:hover {
     color: #0bafc1ff!important;
+}
+
+.welcome {
+    color: #efa51aff;
 }
 
 .jumbotron {
@@ -42,6 +42,7 @@ body {
     color: #efa51aff;
     border-style: solid;
     border-color: #efa51aff;
+    border-radius: 35px;
 }
 
 #joke_btn:hover {
@@ -62,6 +63,7 @@ body {
     color: #0bafc1ff;
     border-style: solid;
     border-color: #0bafc1ff;
+    border-radius: 35px;
 }
 
 #quote_btn:hover {
@@ -80,4 +82,32 @@ body {
 
 .social-links i:hover {
     color: #efa51aff;
+}
+
+.submissions {
+    color: #efa51aff;
+    margin-bottom: 40px;
+}
+
+.submission-form {
+    margin-top: 80px;
+}
+
+p.help-block {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#submissions_btn {
+    color: #efa51aff;
+    background-color: white;
+    border-style: solid;
+    border-color: #efa51aff;
+    outline-color: #efa51aff;
+    border-radius: 35px;
+}
+
+#submissions_btn:hover {
+  background-color:  #efa51aff;
+  color: white;
 }
