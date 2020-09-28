@@ -68,6 +68,7 @@ h2 {
 
 #quote_btn {
     margin-top: 25px;
+    margin-bottom: 25px;
     color: #0bafc1ff;
     border-style: solid;
     border-color: #0bafc1ff;
@@ -141,4 +142,5 @@ h2 {
     font-size: 20px;
     margin-bottom: 60px;
 }
+
 
