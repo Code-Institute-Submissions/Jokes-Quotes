@@ -34,3 +34,6 @@ function createTypeList(data) {
     `
 }
 createTypeList();
+
+//The code above creates the dropdown type selector, fetches the data from the api and returns a random joke from the relevant category which displays in the browser. 
+
