@@ -159,4 +159,15 @@ h2 {
     margin-bottom: 60px;
 }
 
+@media (max-width: 280px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
+}
 
