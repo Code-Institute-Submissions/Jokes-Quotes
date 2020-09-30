@@ -56,6 +56,10 @@ h2 {
   color: white;
 }
 
+.carousel-control-next-icon {
+    color:  #0a0a0aff;
+}
+
 /* ----------- Quotes section --------------------------- */
 
 .quote-carousel {
@@ -91,8 +95,20 @@ h2 {
     font-size: 20px;
 }
 
+/* -----------Social share buttons--------------------------- */
+
 .social-links i:hover {
     color: #efa51aff;
+}
+
+.fa-facebook-square {
+    font-size: 30px;
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    font-size: 30px;
+    color: #1DA1F2;
 }
 
 /* ----------- Submissions Page--------------------------- */

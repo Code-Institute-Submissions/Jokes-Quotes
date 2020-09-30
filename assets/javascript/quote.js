@@ -1,4 +1,3 @@
- //The code below creates the dropdown type selector, fetches the data from the api and returns a random quote from the relevant tag which displays in the browser.
 
 /*var quoteTypeSelector = ["inspirational", "famous-quotes", "life", "love", "friendship", "wisdom", "technology"];
 var quote_result = document.getElementById("quote_result");
@@ -9,12 +8,12 @@ function selectQuote() {
     const userChoice = document.getElementById("quote-choice").value;
     getRandomQuote(userChoice);
 }
-function renderToUser(quote) {
-    document.getElementById("quote_result").innerHTML = `<p>${data.results.content}</p>
-    <p>${data.results.author}</p>`
+function renderToUser(data) {
+    document.getElementById("quote_result").innerHTML = `<p>${data.content}</p>
+    <p>${data.author}</p>`
 }
-function getRandomQuote(category) {
-    fetch(`https://api.quotable.io/quotes`)
+function getRandomQuote(tags) {
+    fetch(`https://api.quotable.io/quotes?tags=${tags}`)
         .then(res => res.json())
         .then(data => {
              renderToUser(data[0])
@@ -35,13 +34,13 @@ function createTagList(data) {
             </select>
     `
 }
-createTagList();*/
+createTagList(); */
 
-         /* fetch('https://api.quotable.io/quotes')
+       fetch('https://api.quotable.io/quotes?tags=inspirational')
   .then(response => response.json())
   .then(data => {
-    console.log(data)
-     //quote_result.innerHTML = `${data.results[0].content} <br>
-          //  ${data.results[0].author}` 
-        })
-  */
+    //console.log(`${data.results[0].content} —${data.results[0].author}`)
+     quote_result.innerHTML = `${data.results[0].content} <br>
+            ${data.results[0].author}` 
+        }) 
+  

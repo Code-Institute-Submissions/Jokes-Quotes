@@ -1,6 +1,6 @@
 //The code below creates the dropdown type selector, fetches the data from the api and returns a random joke from the relevant category which displays in the browser.
 
-var typeSelector = ["programming", "general", "knock-knock"];
+/*var typeSelector = ["programming", "general", "knock-knock"];
 var joke_result = document.getElementById("joke_result");
 var joke_btn = document.getElementById("joke_btn");
 
@@ -36,6 +36,6 @@ function createTypeList(data) {
             </select>
     `
 }
-createTypeList();
+createTypeList(); */
 
 
