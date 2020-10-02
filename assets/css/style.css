@@ -38,10 +38,6 @@ h2 {
 
 /* ----------- Jokes section --------------------------- */
 
-.jokes {
-    margin-top: 20px;
-}
-
 #joke_btn {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -51,9 +47,22 @@ h2 {
     border-radius: 35px;
 }
 
+.result {
+   justify-content: center; 
+   font-size: 20px;
+}
+
 #joke_btn:hover {
   background-color:  #efa51aff;
   color: white;
+}
+
+#fun-carousel {
+    margin-bottom: 20px;
+}
+
+#type {
+    margin-top: 20px;
 }
 
 .carousel-control-next-icon {
@@ -68,6 +77,7 @@ h2 {
 
 .quotes {
     margin-top: 20px;
+    font-size: 20px;
 }
 
 #quote_btn {
@@ -83,6 +93,8 @@ h2 {
     background-color: #0bafc1ff;
     color: white;
 }
+
+
 
 /* -----------Social links footer--------------------------- */
 
