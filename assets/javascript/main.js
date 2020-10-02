@@ -1,15 +1,15 @@
 //The code below creates the dropdown type selector, fetches the data from the api and returns a random joke from the relevant category which displays in the browser.
 
-/*var typeSelector = ["programming", "general", "knock-knock"];
-var joke_result = document.getElementById("joke_result");
-var joke_btn = document.getElementById("joke_btn");
+let typeSelector = ["programming", "general", "knock-knock"];
+let joke_result = document.getElementById("joke_result");
+let joke_btn = document.getElementById("joke_btn");
 
 joke_btn.addEventListener('click', selectJoke);
 function selectJoke() {
     const userChoice = document.getElementById("joke-choice").value;
     getRandomJoke(userChoice);
 }
-function renderToUser(joke) {
+function renderJokeToUser(joke) {
     document.getElementById("joke_result").innerHTML = `<p>${joke.setup}</p>
     <p>${joke.punchline}</p>`
 }
@@ -17,7 +17,7 @@ async function getRandomJoke(category) {
     fetch(`https://official-joke-api.appspot.com/jokes/${category}/random`)
         .then(res => res.json())
         .then(data => {
-            renderToUser(data[0])
+            renderJokeToUser(data[0])
         }).catch(err => {
             
         })
@@ -36,6 +36,6 @@ function createTypeList(data) {
             </select>
     `
 }
-createTypeList(); */
+createTypeList();
 
 
