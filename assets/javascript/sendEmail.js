@@ -11,7 +11,7 @@ function sendMail(contactForm) {
             alert("Success! Thanks for your email, we'll be in touch as soon as humanly possible!", response);
         },
         function(error) {
-            alert("Sorry, but due to an error we couldn't send your message. Please complete the form carefully and try again!", error);
+            alert("Sorry, but due to an error we couldn't send your message. Please complete the form carefully and try again later!", error);
         }
     );
     return false;  // To block from loading a new page
