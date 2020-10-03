@@ -123,34 +123,6 @@ h2 {
     color: #1DA1F2;
 }
 
-/* ----------- Submissions Page--------------------------- */
-
-.submissions {
-    margin-bottom: 10px;
-}
-
-.subs-copy {
-    font-size: 20px;
-    margin-bottom: 60px;
-}
-
-#submissions_btn {
-    color: #efa51aff;
-    background-color: white;
-    border-style: solid;
-    border-color: #efa51aff;
-    outline-color: #efa51aff;
-    border-radius: 35px;
-}
-
-#submissions_btn:hover {
-  background-color:  #efa51aff;
-  color: white;
-}
-
-.subs-social-links {
-    margin-top: 90px;
-}
 /* ----------- Contact Page --------------------------- */
 
 #contact-submit-btn {
