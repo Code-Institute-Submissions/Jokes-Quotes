@@ -140,7 +140,19 @@ h2 {
 }
 .contact-copy {
     font-size: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-top: 30px;
+}
+
+.subs-copy {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #0bafc1ff;
 }
 
 @media (max-width: 280px) {
