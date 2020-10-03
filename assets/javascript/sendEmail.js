@@ -17,3 +17,7 @@ function sendMail(contactForm) {
     return false;  // To block from loading a new page
 }
 
+//Allows the user to reset the form if needed. 
+function myFunction() {
+  document.getElementById("contactForm").reset();
+}
