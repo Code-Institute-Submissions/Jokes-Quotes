@@ -116,11 +116,13 @@ h2 {
 .fa-facebook-square {
     font-size: 30px;
     color: #3b5998;
+    margin-bottom: 60px;
 }
 
 .fa-twitter-square {
     font-size: 30px;
     color: #1DA1F2;
+    margin-bottom: 60px;
 }
 
 /* ----------- Contact & Submissions Page --------------------------- */
