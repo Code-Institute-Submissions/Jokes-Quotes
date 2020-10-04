@@ -38,4 +38,3 @@ function createTypeList(data) {
 }
 createTypeList();
 
-

@@ -132,43 +132,70 @@
 	</div>
 </div>
 
-        
-<div class="container-fluid">
+
+<div class="container">
 	<div class="row">
-		<div class="col-md-12 quote-carousel">
-        <div id="inspire-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="assets/images/viewpoint.jpg" class="img-fluid" alt="Two friends pointing out to sea from a very high peak across a mountainous scene. Tiny details of the town below are visible.">
-            </div>
-            <div class="carousel-item">
-            <img src="assets/images/arch.jpg" class="img-fluid" alt="A great rocky archway over the sea. The sunlight creates a warm misty haze through the arch.">
-            </div>
-            <div class="carousel-item">
-            <img src="assets/images/swim.jpg" class="img-fluid" alt="Rear view of a woman who is sat in the still waters of a narrow stream. The view on the horizon is a mountainscape and cloudy, blue skies.">
-            </div>
-            <div class="carousel-item">
-            <img src="assets/images/far-sign.jpg" class="img-fluid" alt="White 3d letters stand out from a black sign which reads - You didn't come this far to only come this far">
-            </div>
-            <div class="carousel-item">
-            <img src="assets/images/got-this.jpg" class="img-fluid" alt="Black letters on a white interchangeable sign reads - You Got This. The sign lays flat on a wooden table next to a mobile phone and laptop">
-            </div>
-            <div class="carousel-item">
-            <img src="assets/images/make-mark.jpg" class="img-fluid" alt="Big blue neon sign in a store front as a woman walks by. Sign reads - MAKE YOUR MARK">
-            </div>
-           
+		<div class="col-md-12 quote-lightbox">
+        <div class="row">
+                    <div class="col">
+                        <img src="assets/images/viewpoint.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="Two friends pointing out to sea from a very high peak across a mountainous scene. Tiny details of the town below are visible." />
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/arch.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="A great rocky archway over the sea. The sunlight creates a warm misty haze through the arch." />
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/swim.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="Rear view of a woman who is sat in the still waters of a narrow stream. The view on the horizon is a mountainscape and cloudy, blue skies." />
+                    </div>
         </div>
-        <a class="carousel-control-prev" href="#inspire-carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#inspire-carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+            <div id="Lightbox" class="modal">
+                <span class="close pointer" onclick="closeLightbox()">&times;</span>
+                <div class="modal-content">
+                    <div class="slide">
+                        <img src="assets/images/viewpoint.jpg" class="image-slide" alt="Two friends pointing out to sea from a very high peak across a mountainous scene. Tiny details of the town below are visible." />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/arch.jpg" class="image-slide" alt="A great rocky archway over the sea. The sunlight creates a warm misty haze through the arch." />
+                    </div>    
+                    <div class="slide">
+                        <img src="assets/images/swim.jpg"  class="image-slide" alt="Rear view of a woman who is sat in the still waters of a narrow stream. The view on the horizon is a mountainscape and cloudy, blue skies." />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/far-sign.jpg" class="image-slide" alt="White 3d letters stand out from a black sign which reads - You didn't come this far to only come this far" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/got-this.jpg" class="image-slide" alt="Black letters on a white interchangeable sign reads - You Got This. The sign lays flat on a wooden table next to a mobile phone and laptop" />
+                    </div>    
+                    <div class="slide">
+                        <img src="assets/images/make-mark.jpg"  class="image-slide" alt="Big blue neon sign in a store front as a woman walks by. Sign reads - MAKE YOUR MARK" />
+                    </div>
+                
+                    <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                
+                    <div class="dots">
+                    <div class="col">
+                        <img src="assets/images/viewpoint.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Two friends pointing out to sea from a very high peak across a mountainous scene. Tiny details of the town below are visible." />
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/arch.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="A great rocky archway over the sea. The sunlight creates a warm misty haze through the arch." />
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/swim.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Rear view of a woman who is sat in the still waters of a narrow stream. The view on the horizon is a mountainscape and cloudy, blue skies." />
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/far-sign.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="White 3d letters stand out from a black sign which reads - You didn't come this far to only come this far" />
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/got-this.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Black letters on a white interchangeable sign reads - You Got This. The sign lays flat on a wooden table next to a mobile phone and laptop" />
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/make-mark.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Big blue neon sign in a store front as a woman walks by. Sign reads - MAKE YOUR MARK" />
+                    </div>
+                </div>
+            </div>
         </div>
-		</div>
-	</div>
+    </div>
+</div>
 </div>
 
 <div class="container">

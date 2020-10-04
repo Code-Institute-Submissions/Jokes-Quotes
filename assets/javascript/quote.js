@@ -38,16 +38,5 @@ function createTagList(data) {
 }
 createTagList(); 
 
-     /*  fetch('https://api.quotable.io/quotes?tags=inspirational')
-  .then(response => response.json())
-  .then(data => {
-      //console.log(data.results)
-    //console.log(`${data.results[0].content} —${data.results[0].author}`)
-    data = data.results;
-    data.forEach((function(item) {
-    document.getElementById("quote_result").innerHTML = item.content;
-     //quote_result.innerHTML = `${data.results[0].content} <br>
-           // ${data.results[0].author}` 
-        }));
-    }) */
+    
   
