@@ -131,73 +131,73 @@
         </div>
 	</div>
 </div>
+<div class="container">
+        <div class="row">
+        <div class="column">
+            <img src="assets/images/viewpoint.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/arch.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/swim.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/far-sign.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        </div>
+</div>
 
+
+        <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="assets/images/viewpoint.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="assets/images/arch.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="assets/images/swim.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="assets/images/far-sign.jpg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
 
 <div class="container">
-	<div class="row">
-		<div class="col-md-12 quote-lightbox">
-            <div class="row">
-                        <div class="col">
-                            <img src="assets/images/viewpoint.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="Two friends pointing out to sea from a very high peak across a mountainous scene. Tiny details of the town below are visible." />
-                        </div>
-                        <div class="col">
-                            <img src="assets/images/arch.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="A great rocky archway over the sea. The sunlight creates a warm misty haze through the arch." />
-                        </div>
-                        <div class="col">
-                            <img src="assets/images/swim.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="Rear view of a woman who is sat in the still waters of a narrow stream. The view on the horizon is a mountainscape and cloudy, blue skies." />
-                        </div> 
+        <div class="row">
+            <div class="column">
+            <img class="demo cursor" src="assets/images/viewpoint.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
             </div>
-		</div>    
-            <div id="Lightbox" class="modal">
-                <span class="close pointer" onclick="closeLightbox()">&times;</span>
-                <div class="modal-content">
-                    <div class="slide">
-                        <img src="assets/images/viewpoint.jpg" class="image-slide img-responsive" alt="Two friends pointing out to sea from a very high peak across a mountainous scene. Tiny details of the town below are visible." />
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/arch.jpg" class="image-slide img-responsive" alt="A great rocky archway over the sea. The sunlight creates a warm misty haze through the arch." />
-                    </div>    
-                    <div class="slide">
-                        <img src="assets/images/swim.jpg"  class="image-slide img-responsive" alt="Rear view of a woman who is sat in the still waters of a narrow stream. The view on the horizon is a mountainscape and cloudy, blue skies." />
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/far-sign.jpg" class="image-slide img-responsive" alt="White 3d letters stand out from a black sign which reads - You didn't come this far to only come this far" />
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/got-this.jpg" class="image-slide img-responsive" alt="Black letters on a white interchangeable sign reads - You Got This. The sign lays flat on a wooden table next to a mobile phone and laptop" />
-                    </div>    
-                    <div class="slide">
-                        <img src="assets/images/make-mark.jpg"  class="image-slide img-responsive" alt="Big blue neon sign in a store front as a woman walks by. Sign reads - MAKE YOUR MARK" />
-                    </div>
-                
-                    <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
-                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
-                
-                    <div class="dots">
-                    <div class="col">
-                        <img src="assets/images/viewpoint.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Two friends pointing out to sea from a very high peak across a mountainous scene. Tiny details of the town below are visible." />
-                    </div>
-                    <div class="col">
-                        <img src="assets/images/arch.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="A great rocky archway over the sea. The sunlight creates a warm misty haze through the arch." />
-                    </div>
-                    <div class="col">
-                        <img src="assets/images/swim.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Rear view of a woman who is sat in the still waters of a narrow stream. The view on the horizon is a mountainscape and cloudy, blue skies." />
-                    </div>
-                    <div class="col">
-                        <img src="assets/images/far-sign.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="White 3d letters stand out from a black sign which reads - You didn't come this far to only come this far" />
-                    </div>
-                    <div class="col">
-                        <img src="assets/images/got-this.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Black letters on a white interchangeable sign reads - You Got This. The sign lays flat on a wooden table next to a mobile phone and laptop" />
-                    </div>
-                    <div class="col">
-                        <img src="assets/images/make-mark.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Big blue neon sign in a store front as a woman walks by. Sign reads - MAKE YOUR MARK" />
-                    </div>
-                </div>
+            <div class="column">
+            <img class="demo cursor" src="assets/images/arch.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+            </div>
+            <div class="column">
+            <img class="demo cursor" src="assets/images/swim.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+            <img class="demo cursor" src="assets/images/far-sign.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
             </div>
         </div>
-    
-</div>
-</div>
+        </div>
+        </div>
+</div>        
 
 <div class="container">
 	<div class="row">

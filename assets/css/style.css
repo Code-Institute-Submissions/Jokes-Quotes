@@ -171,42 +171,27 @@ label {
 
 /* ----------- Lightbox code --------------------------- */
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-}
-
-.preview {
-  width: 100%;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.row > .col {
+.row > .column {
   padding: 0 8px;
 }
 
-.col {
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
   float: left;
   width: 25%;
 }
-   
+
+/* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
   z-index: 1;
-  padding: 10px 62px 0px 62px;
+  padding-top: 100px;
   left: 0;
   top: 0;
   width: 100%;
@@ -215,53 +200,17 @@ body {
   background-color: black;
 }
 
+/* Modal Content */
 .modal-content {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-color: #fefefe;
   margin: auto;
-  padding: 0 0 0 0;
-  width: 80%;
+  padding: 0;
+  width: 90%;
   max-width: 1200px;
 }
 
-.slide {
-  display: none;
-}
-
-.image-slide {
-  width: 100%;
-}
-
-.modal-preview {
-  width: 100%;
-}
-
-.dots {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-img.preview, img.modal-preview {
-  opacity: 0.6;
-}
-
-img.active,
-.preview:hover,
-.modal-preview:hover {
-  opacity: 1;
-}
-
-img.hover-shadow {
-  transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} 
-
+/* The Close Button */
 .close {
   color: white;
   position: absolute;
@@ -278,7 +227,16 @@ img.hover-shadow {
   cursor: pointer;
 }
 
-.previous,
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -295,12 +253,51 @@ img.hover-shadow {
   -webkit-user-select: none;
 }
 
+/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.previous:hover,
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
