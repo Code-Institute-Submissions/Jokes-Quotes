@@ -37,7 +37,7 @@ function getRandomQuote(tags) {
         .then(data => {
             renderQuoteToUser(
                 data.results[Math.floor(Math.random() * data.results.length)]);
-        }).catch(e => {
+        }).catch(err => {
             alert("Our apologies, there was an error accessing the quotes data, please refresh the page and try again.");
         });
 }
