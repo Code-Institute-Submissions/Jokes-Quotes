@@ -5,7 +5,7 @@ body {
     text-align: center;
 }
 
-/* ----------- Navbar/Reluctant use of !important to overide Bootstrap settings -- */
+/* ----------- Navbar code with reluctant use of !important to overide Bootstrap settings -- */
 
 .navbar-brand {
     font-size: 35px;
