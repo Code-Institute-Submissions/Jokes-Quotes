@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
-
 body {
     font-family: 'Gaegu', cursive;
     justify-content: center;
     text-align: center;
 }
 
-/* ----------- Navbar -------------------------------------- */
+/* ----------- Navbar/Reluctant use of !important to overide Bootstrap settings -- */
 
 .navbar-brand {
     font-size: 35px;
@@ -22,6 +21,7 @@ body {
 }
 
 /* ----------- Heading/Jumbotron --------------------------- */
+
 h2 {
     color: #efa51aff;
 }
@@ -29,8 +29,8 @@ h2 {
 .jumbotron {
     justify-content: center;
     margin-top: 0px;
-    background-color:  white;
-    color:  #0a0a0aff;
+    background-color: white;
+    color: #0a0a0aff;
     font-size: 20px;
     padding: 5px;
     margin-bottom: 20px;
@@ -48,13 +48,13 @@ h2 {
 }
 
 .result {
-   justify-content: center; 
-   font-size: 20px;
+    justify-content: center;
+    font-size: 20px;
 }
 
 #joke_btn:hover {
-  background-color:  #efa51aff;
-  color: white;
+    background-color: #efa51aff;
+    color: white;
 }
 
 #fun-carousel {
@@ -66,14 +66,10 @@ h2 {
 }
 
 .carousel-control-next-icon {
-    color:  #0a0a0aff;
+    color: #0a0a0aff;
 }
 
-/* ----------- Quotes section --------------------------- */
-
-.quote-carousel {
-    margin-top: 50px;
-}
+/* ----------- Quotes section ---------------------------- */
 
 .quotes {
     margin-top: 20px;
@@ -93,8 +89,6 @@ h2 {
     background-color: #0bafc1ff;
     color: white;
 }
-
-
 
 /* -----------Social links footer--------------------------- */
 
@@ -125,7 +119,7 @@ h2 {
     margin-bottom: 60px;
 }
 
-/* ----------- Contact & Submissions Page --------------------------- */
+/* ----------- Contact & Submissions Page ------------------- */
 
 #contact-submit-btn {
     color: #efa51aff;
@@ -138,9 +132,10 @@ h2 {
 }
 
 #contact-submit-btn:hover {
-    background-color:  #efa51aff;
+    background-color: #efa51aff;
     color: white;
 }
+
 .contact-copy {
     margin-bottom: 20px;
 }
@@ -157,147 +152,158 @@ label {
     color: #0bafc1ff;
 }
 
+/* ----------- Media Queries to fix issue with navbar toggler dropping down to next line on iPhone 5/SE and Galaxy Fold --------------------------- */
+
 @media (max-width: 280px) {
-  .navbar-brand {
-    font-size: 22px;
-  }
+    .navbar-brand {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 320px) {
-  .navbar-brand {
-    font-size: 22px;
-  }
+    .navbar-brand {
+        font-size: 22px;
+    }
 }
 
-/* ----------- Lightbox  --------------------------- */
+/* ----------- Lightbox code below was copied from W3 Schools. https://www.w3schools.com/howto/howto_js_lightbox.asp --------------------------- */
 
-.row > .column {
-  padding: 0 8px;
+.row>.column {
+    padding: 0 8px;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .column {
-  float: left;
-  width: 25%;
+    float: left;
+    width: 25%;
 }
 
 /* The Modal (background) */
+
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
 }
 
 /* Modal Content */
+
 .modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
 }
 
 /* The Close Button */
+
 .close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .mySlides {
-  display: none;
+    display: none;
 }
 
 .cursor {
-  cursor: pointer;
+    cursor: pointer;
 }
 
+
 /* Next & previous buttons */
+
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
+
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
+
 /* On hover, add a black background color with a little bit see-through */
+
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
+
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 img {
-  margin-bottom: -4px;
+    margin-bottom: -4px;
 }
 
 .caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
 }
 
 .demo {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .active,
 .demo:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 img.hover-shadow {
-  transition: 0.3s;
+    transition: 0.3s;
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
