@@ -11,7 +11,7 @@ Link to website - https://johnw876.github.io/johnwithey1/
 * To deliver engaging content and an enjoyable user experience.
 * To drive traffic and user engagement through social sharing. 
 * To encourage the user to make repeated visits to the site and repeated sharing through contributing their own jokes and quotes. 
-* To enable users to make contact easily.
+* To enable users to make contact easily with site owners. 
 
 ### User goals:
 * Users are looking specifically for jokes and/or quotes.
@@ -24,13 +24,15 @@ Link to website - https://johnw876.github.io/johnwithey1/
 
 The user types can be defined as one of the following:
 
-* Users seeking online entertainment
+* Users searching for topics such as humour, fun, jokes, inspiration, quotes and all related search terms. 
 * Users searching specifically for jokes and/or quotes
+* Active users of social media channels including Facebook & Twitter
 * Content Marketers
 * Niche Bloggers
+* Users who may search specifically for joke generator or quote generator. 
 
 
-These groups make up the target audience and each user has a reason or need to visit the site. The site has been designed to meet those needs as well as the needs of the business.
+These groups make up the target audience and each user type has a reason or need to visit the site. The site has been designed to meet those needs as well as the needs of the business.
 
 Clear sections which relate specifically to all of the user types above are built into the website's design.
 
@@ -40,17 +42,16 @@ A mobile first approach was taken to create this project with consideration of e
 
 1. As a user seeking entertainment, I want to find jokes and quotes quickly and easily, so that I can satisfy my own interests. 
 
-2. As a fan of jokes and/or quotes, I want to find new content, so that I can enjoy it and share with friends.  
+2. As a fan of jokes and/or quotes, I want to find new content, so that I can enjoy it and share it with friends.  
 
 3. As a consumer, I want to be entertained, have fun and be inspired, so that I can enjoy the experience and share it with friends.  
 
 4. As a potential contributor, I want to submit my own jokes and quotes, so that I can get involved and share them with others. 
 
-5. As a Content Marketer, I want to find original content and catchy material, so that I can use it to liven up my output.
+5. As a content marketer, I want to find original content and catchy material, so that I can use it to liven up my output.
 
-6. As a Niche Blogger, I want to get interesting content for my blog such as inspiring quotes of the day or funny jokes and images, so I can keep up to date with my interests. 
+6. As a niche blogger, I want to find interesting content for my blog, so that it stays fresh and appealing to my followers. 
 
-7. As a commercial art buyer, I want to know if the artist undertakes commissions and be able to contact them, so that my blog stays fresh and appealing to my followers. 
 
 
 Further information and screenshots showing how this project meets the user's needs can be
@@ -60,91 +61,97 @@ found in the separate [TESTING.md](https://github.com/JohnW876/johnwithey1/blob/
 Below is a link to the project's wireframe mockups which were created using Balsamiq Wireframes software prior to the build to help with visualisation of features and layout. 
 
 https://github.com/JohnW876/johnwithey1/tree/master/assets/wireframes
-
-I found Balsmic very easy to use and it helped me to simplify my ideas and think about how to build in features that met the users needs before I started to write the code. 
-
+ 
 Wireframe mockups were created for every page of the website at mobile, tablet and desktop sizes and I referred to them throughout the build. 
-Because I had 15 mockups in total they were easier to compile into a pdf file that I referred to and could easily scroll through. 
 
-Although I had some problems getting the wireframes to show up in Github early on, I eventually managed to get them to upload as individual png files to a wireframes folder within the assets folder. 
+The only major departure from my original wireframes was to combine the separate forms into a single contact and submissions form. 
+In trying to meet user needs, the two forms were conceived as separate features at the design stage but during development it was obvious that combining them 
+removed unnecessary duplication whilst offering an improved and simplified user experience. 
 
-The only major change I made from my original wireframes was to make the gallery images on smaller devices be single columns and fill the screen width to follow the mobile first approach.  
+### **User Expectations:**
+* What will they expect to see? - Users will expect to see immediate content related to their search terms stated above. They will want to find this on the home page and not want to spend time looking for it as there are many other sites competing for their attention in this category. 
+
+* Does the site look credible and trustworthy? - Many elements will contribute to the first impression of a trustworthy site. These include, clear and intuitive navigation, good design and functionality. 
+
+* Does the site offer what the user wants? - The features will need to meet the user's goals easily and deliver a fun and inspiring user experience. 
+
+* Does the site seem valuable enough for users to stay and return? - As stated in the main goals of the website, the content will need to engage and the experience must be valuable and entertaining. 
+  Making this experience a success and guiding the user to share with other users should deliver value and promote return visits. 
+  Offering the ability for users to submit their own jokes and quotes which will be displayed on the site should increase return visits.
+
+### **Market Research:**
+* When considering the question of why would a user want to use this site, it was important to look at demand and conduct some research. 
+
+* Using the Google Trends search tool we can study users interests via search terms over time. 
+  If we run a search for related terms such as funny websites or fun and trivia, there have been many surges of activity in the last 12 months with an increase in interest of 90% for humour related topics. 
+  The global pandemic has undoubtedly contributed to this with people being forced to stay at home due to government lockdowns. 
+
+* It’s safe to say that users are bored and looking for entertainment. Unsurprisingly, the market trend figures show a huge increase in searches for this type of website over the last 12 months globally. 
+  Other related topics such as boredom show an increase in Google searches of 200% and increased searches for jokes of 60%. 
+
+* The other side of our site covers inspiration as a topic and Google trends shows that searches for inspiring quotes was consistently high over the last 12 months.
+  Searches for inspiring quotes in hard times showed an increase of 140%. 
+
+* So, combining jokes and inspiring quotes into one site allows us to reach these users who are demonstrating strong interest in these subjects. 
 
 ## **Features**
 
-The site includes a homepage featuring a carousel of images by the artist and a sign-up form to receive a newsletter.
-There are separate image gallery pages for art and photography, an about page and a contact page.
-There are main navigation links and social media links on every page. 
+* The site has clear, simple and easy to find navigation.
 
-The website has been designed as minimalist to firstly allow the work to stand out and also to match the style of the artwork being displayed. It uses white space to a maximum and employs a minimal colour palette of blue and orange with only a few elements using a colour other than black or white. 
-These colour elements include the logo at the top of each page, the form submit buttons (upon hover), the about page headings, social links and the contact form. 
+* The main focus of the site is a scrolling homepage featuring clear sections for both jokes and quotes. 
 
-### **Home**
-In keeping with the minimalist design there are a few carefully chosen features on the homepage. 
+* There are main navigation links and social media links on both pages.
 
-* The logo which features on every page is important for immediate branding and its’ colour helps it to stand out. It lets the user know they are in the right place and tells them which artist’s website this is.
-        It follows the convention of bringing the user back to the homepage when you click on it.
+* There are social share buttons close to the generator buttons on the homepage. 
 
-* The navigation bar clearly lets the user know about the different sections of the website and have been positioned in order of priority and in a natural flow from left to right. 
-       This intended flow is to discover the artwork through the Homepage and Galleries, informing the user through the About section and then finally to encourage contact via the Contact page. 
-       The clear headings also allow users to jump to their immediate area of interest if they wish. 
 
-* From the homepage the user can get a first idea of the artist’s work by viewing the carousel and directly beneath there is a call out to encourage the user to sign up to the newsletter. 
+### **Homepage**
+There are a number of carefully chosen features on the homepage:
 
-* Below that in the footer are links to social media which change colour to orange when scrolled over to signify that they’re live, to encourage use and to create more impact. 
+* There is a welcome message at the top of the page to quickly introduce the purpose of the site and guide the user to the main features. 
 
-These features on the homepage are designed to fulfil the needs of users from the user stories above. 
+* Scrolling down the user comes to the joke section first with an image carousel of funny images.
 
-### **Photography & Art Galleries**
-Both the Photography and Art galleries are identical in featuring a gallery of thumbnail images. 
-* They have been divided into categories to appeal to their appropriate user types with relevant user needs. So art lovers, fellow artists and art agents can easily find the art gallery and likewise photography related users can easily find the photography gallery.
-* Each gallery is separated into columns which responsively increase according to screen size. 
-* On mobile devices they display as a single column wide, on tablets they increase to two columns wide and on desktop screens will display as four columns wide.
+* Directly below is a heading that directs the user to select a joke category (via the dropdown) and click the button to display consecutive jokes. This has all been kept deliberately simple and intuitive.
 
-### **About**
-Designed to provide information on both the artist’s background and current services offered to the relevant users. 
-The page is simply divided into sections with large headings to make them clear and easy to find.
-The content is clear, concise and the services content guides the user to get in touch via the contact page to meet both the user and business needs. 
+* The joke button changes colour when hovered over and glows when clicked to offer user feedback and encourage interactivity.
 
-### **Contact**
-Featuring a simple contact form with message area to allow the user to make enquiries such as upcoming events, potential commissions, collaboration or agency representation. 
-* Note the sign-up newsletter has been removed from this page to avoid dividing the users attention unnecessarily. 
+* There are social share buttons for Facebook and Twitter directly under the joke button to encourage sharing. 
 
-### **Existing Features**
+* Scrolling further down the page, the user comes to the quotes section which is similar to jokes above but features a lightbox of images that open up to a large viewer when clicked. 
 
-* Header Logo - Creates brand recognition and features at the top of every page of the website. Clicking the logo allows user to return to the homepage as expected. The colour helps it to stand out against the white background. 
+* The user can choose to view the images immediately or select the dropdown menu and choose a quote category. Clicking on the button returns a random quote from that category and consecutive clicks continues to supply more quotes. 
 
-* Header Navigation Bar - A simple navigation bar with links to every page allowing the user to jump to the sections they need. They are positioned in order of priority from left to right to guide the user through the site from discovering the work through to finding out about the artist and then to making contact.
+* The navigation bar clearly lets the user know about the different sections of the website and have been positioned in order of priority and in a natural flow from left to right. The clear headings also allow users to jump to their immediate area of interest if they wish. 
+ 
+* Below that in the footer are links to social media which change colour when scrolled over to signify that they’re live, to encourage use and to create more impact. 
 
-* Image Carousel - Creates immediate impact and a focus on the artist’s work. This allows the user to get a feel for the work and decide if they want to see more via the navigation links.
+These features are designed to fulfil the needs of users from the user stories above. 
 
-* Callout - The call out directs the user to sign up to the newsletter. For users wanting to find out the latest news, events, offers etc this will be of interest and will meet their needs. It also serves the business objective of building a mailing list for future marketing. 
+ 
+### **Contact & Submissions page**
+* A single contact form for user enquiries, questions and suggestions. The form can also be used to submit user jokes and quotes. 
 
-* Newsletter Sign-Up Form - Featured on every page except the contact form. For users it will give them lots of opportunities to sign up and receive the latest news, if that is their goal. It will also help to ensure the business objective of a mailing list is achieved. 
+* Successful completion of the form will display a message on screen to alert the user. 
 
-* Social Media Icons. Featured In the footer of every page with orange coloured hover. This powerful feature provides users quick and easy links to the artist’s social channels and benefits the user needs of all types as detailed in the user stories above. 
+* If the user wishes to reset the form manually they can do so via the reset button. 
 
-* Photography Image Gallery - On mobile devices, clicking on any image opens in a new window which removes all padding and presents on a plain black background. The user can see the work without distraction. On tablets and larger screens the effect is even more pronounced. The columns are responsive and will change according the screen size from single image column on mobiles to four columns on desktop. 
+* Once successfully submitted, the site owner will receive an email notification via the Email.js service. 
 
-* Artwork Image Gallery - With identical features to the photography gallery but adding value to the user by dividing into a separate category to meet user needs. 
-
-* About page - Allows the user to find out more about the artist and services being offered. Also contains links to social media in the footer if the user wishes to explore further and the content directs the user to get in touch if they have an enquiry. 
-
-* Contact Form-  Allows the user to fill out a simple form with their contact details and a text area to add their message to the artist. 
 
 ### **Features to implement in future**
+When considering the trade off between importance and viability, the following features could not be implemented at this stage but would make great additions in future:
 
-* E-Commerce functionality - If the website is successful in meeting its business objectives then a natural progression would be to offer e-commerce functionality to be able to sell original work and prints directly to the user. 
-* Lightbox function in galleries - I would like to add more sophisticated functionality to the image galleries to add value and an improved user experience. Users could add their favourites to a Lightbox to view later and could tie in with purchasing if the e-commerce feature above was also implemented.
-* Artist’s Blog - A blog would meet the needs of many target users and offer increased value through getting to know the artist and their ideas, inspirations, etc. 
+* Increased user choice - Due to cost restraints, this site was limited to using public apis with a few categories. Future versions could perhaps include more categories of jokes and quotes. 
+* Search & Save functionality - I would like to add a search and save function to the jokes and quotes sections so that users could view, add or share their favourites. 
+
 
 ## **Technologies Used**
 * [Gitpod](https://www.gitpod.io/) Gitpod IDE was used to develop the website.
-* The programming languages HTML & CSS are both used in this project.
+* HTML, CSS and Javascript are used in this project.
 * [Bootstrap](https://getbootstrap.com/) framework is used to make the website responsive on all devices. 
 * [FontAwesome](https://fontawesome.com/v4.7.0/) is used to provide social media icons.
-* [Google Fonts](https://fonts.google.com/) is used to provide styling to all type on the website. I opted for a single font of ‘Spartan’ to add to the minimalist theme. 
-* [Real Favicon Generator](https://realfavicongenerator.net/) is used to create the favicon files and code in html page heads. 
+* [Google Fonts](https://fonts.google.com/) is used to provide styling to all type on the website. 
 * [Balsamiq Wireframes](https://balsamiq.com/) were used prior to commencing coding to help with UX design, pre-visualisation and layout and were consulted throughout development.
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) were used to inspect the code and preview changes on mobile, tablet and desktop devices.
 
@@ -189,10 +196,11 @@ The Development Branch and the Master Branch are identical at the time of this p
 ## **Credits**
 
 ### **Content**
-All content was written and provided by John Withey.
+All site content, other than the quotes and jokes themselves, was written by John Withey.
 
 ### **Media**
-All images used in this project were created by the artist and were provided by John Withey. 
+All images used in this project were created by the talented photographers at Unsplash.
+https://unsplash.com/ 
 
 ### **Code**
 The original navbar was taken from Bootstrap docs and edited and styled.
@@ -223,9 +231,9 @@ I copied code from here to place in my header to enable the favicon to function 
 https://realfavicongenerator.net/
 
 ### **Acknowledgements**
-Inspiration for this project came from working as a professional photographer and artist for many years and always being frustrated at having to try and explain to web developers how I would like my website to be but not being able to contribute. 
-I now appreciate their efforts much more as I understand the challenges a little better.
+Inspiration for this project came from being completely fed up with the misery caused by the global pandemic.
+The desire to create the opposite of doom and gloom, in some very small way, led to the idea of jokes and quotes.  
 
-I'd like to thank my mentor Aaron Sinnott for helping with positive and constructive feedback during the project. 
+I'd like to thank my mentor Aaron Sinnott for helping with positive and constructive feedback during the project, once again! 
 
  

@@ -5,13 +5,13 @@ body {
     text-align: center;
 }
 
-/* ----------- Navbar code with reluctant use of !important to overide Bootstrap settings -- */
+/* ----------- Navbar code -------------------------------- */
 
 .navbar-brand {
     font-size: 35px;
     color: #0bafc1ff!important;
 }
-
+/* --- Reluctant use of !important to overide Bootstrap settings --------- */
 .nav-link {
     font-size: 30px;
 }
