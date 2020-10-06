@@ -145,7 +145,7 @@ These features are designed to fulfil the needs of users from the user stories a
 When considering the trade off between importance and viability, the following features could not be implemented at this stage but would make great additions in future:
 
 * Increased user choice - Due to cost restraints, this site was limited to using public apis with a few categories. Future versions could perhaps include more categories of jokes and quotes.
- 
+
 * Search & Save functionality - I would like to add this feature so that users could view, add or share their favourites from the site. 
 
 
@@ -203,7 +203,7 @@ The Development Branch and the Master Branch are identical at the time of this p
 ## **Credits**
 
 ### **Content**
-All site content, other than the jokes and quotes from the apis, was written by John Withey.
+All site content, other than the jokes and quotes from the APIs, was written by John Withey.
 
 ### **Media**
 All images used in this project were created by the talented photographers at Unsplash.
@@ -234,7 +234,7 @@ https://www.youtube.com/watch?v=KaAeh4Risrc&feature=youtu.be
 Code for share buttons used from here:
 https://stackoverflow.com/questions/16463030/how-to-add-facebook-share-button-on-my-website
 
-How to reset form, code used from here:
+How to reset form, code used from here: 
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_form_reset
 
 Code for the Lightbox was copied from W3 Schools:
