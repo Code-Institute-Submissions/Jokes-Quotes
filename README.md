@@ -57,7 +57,7 @@ A mobile first approach was taken to create this project with consideration of e
 
 
 Further information and screenshots showing how this project meets the user's needs can be
-found in the separate [TESTING.md](https://github.com/JohnW876/johnwithey1/blob/master/TESTING.md) file.
+found in the separate [TESTING.md](https://github.com/JohnW876/Jokes-Quotes/blob/master/TESTING.md) file.
 
 ### **Wireframe mockups:**
 Below is a link to the project's wireframe mockups which were created using Balsamiq Wireframes software prior to the build to help with visualisation of features and layout. 
@@ -164,7 +164,7 @@ When considering the trade off between importance and viability, the following f
 
 ## **Testing**
 
-Information regarding testing can be found in this separate [TESTING.md](https://github.com/JohnW876/johnwithey1/blob/master/TESTING.md) file.
+Information regarding testing can be found in this separate [TESTING.md](https://github.com/JohnW876/Jokes-Quotes/blob/master/TESTING.md) file.
 
 ## **Deployment**
 
