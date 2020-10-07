@@ -11,6 +11,7 @@ body {
   font-size: 35px;
   color: #0bafc1ff !important;
 }
+
 /* --- Reluctant use of !important to overide Bootstrap settings --------- */
 .nav-link {
   font-size: 30px;

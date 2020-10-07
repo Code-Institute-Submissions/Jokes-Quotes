@@ -1,4 +1,4 @@
-# **John Withey - Jokes & Quotes Website**
+# **Jokes & Quotes Website**
 
 
 A light-hearted website with the purpose of providing fun and inspiration in the form of jokes and quotes.

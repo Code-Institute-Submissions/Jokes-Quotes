@@ -114,7 +114,7 @@ These user's needs are met via:
 Dropdown menus on desktop (Above)
 
 
-**6. As a niche blogger, I want to find interesting content for my blog, so that it stays fresh and appealing to my followers. .** 
+**6. As a niche blogger, I want to find interesting content for my blog, so that it stays fresh and appealing to my followers.** 
 
 These user's needs are met via:
 * The dropdown menus to give the users a choice of joke and quote categories to appeal to a broad range of users.
@@ -186,7 +186,7 @@ The above tests were carried out and no errors were found.
 
 	i. Submit an empty form and verify if an error message is displayed saying please fill in this field.
 
-	ii. Try to hover the pointer over the “Submit” button to verify if it changes to the correct colour.
+	ii. Try to hover the pointer over the Submit button to verify if it changes to the correct colour.
 
 	iii. Try to submit an invalid email address to verify if the correct error message appears.
 
@@ -239,7 +239,7 @@ The website was tested on the following devices:
 
 ### **Mobile**
 
-* Apple iPhone XR using Safari on IOS 13.5.1
+* Apple iPhone XR using Safari on IOS 13.7
 * Apple iPhone 7 using Safari on IOS 11.3.1
 * Apple iPhone 8 using Safari on IOS 13.4
 * Motorola Moto E5 using Google Chrome on Android 8.1
@@ -253,7 +253,7 @@ The website was tested on the following devices:
 
 ### **Desktop** 
 
-The website was tested on the following browsers on Apple iMac running OS Catalina 10.15.5:
+The website was tested on the following browsers on Apple iMac running OS Catalina 10.15.6 :
 
 * Google Chrome - Version 85.0.4183.121 (Official Build) (64-bit)
 * Apple Safari - Version 13.1.2 (15609.3.5.1.3)
@@ -263,12 +263,12 @@ The website displayed well on all of the above browsers and devices.
 All interactive elements were tested and found to be working correctly except for the issues detailed below.
 
 ### **Issues**
-1. During development an issue with the iPhone 5/SE and Galaxy fold mobile devices was found. Whilst inspecting in Chrome DevTools the navbar toggle dropdown was being pushed down and out of position by the logo at its’ usual size. 
+1. During development an issue with the iPhone 5/SE and Galaxy fold mobile devices was found. Whilst inspecting in Chrome Dev Tools the navbar toggle dropdown was being pushed down and out of position by the logo at its’ usual size. 
 2. The next and previous arrows are not displaying correctly on the tablet and desktop version of the website but are working correctly on mobile devices. 
 
 ### **Fixes**
 1. Issue 1 - Media queries were used to reduce the size of the logo when using devices at the relevant devices max widths of 280px and 320px wide. This resolved the issue. 
-2. Isssue 2 - Changed the fill colour in the data svg url. Issue now resolved with help from CI Tutor support.
+2. Isssue 2 - Changed the fill colour in the data svg url to make the icons more visible. Issue now resolved with help from CI Tutor Support.
 
 
 ### **Code Validators:**
