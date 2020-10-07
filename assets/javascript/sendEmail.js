@@ -24,7 +24,7 @@ function sendMail(contactForm) {
    return false; // To block from loading a new page
 }
 
-//Allows the user to reset the form if needed.
+//Allows the user to reset the form if needed. I have included this small but useful feature to add value and to help users when submitting their own material. 
 function myFunction() {
    document.getElementById("contactForm").reset();
 }

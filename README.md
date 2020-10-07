@@ -96,6 +96,21 @@ removed unnecessary duplication whilst offering an improved and simplified user 
 
 * So, combining jokes and inspiring quotes into one site allows us to reach these users who are demonstrating strong interest in these subjects. 
 
+### **Visual Design:**
+* Colour scheme -
+  When designing the site I wanted to convey two key themes of fun and inspiration. In colour psychology these themes closely align to yellow and blue. 
+  Yellow conveys fun, optimism and warmth. Blue conveys inspiration and trust.
+  To keep the design light and carefree, in keeping with the content, I chose to use these colours sparingly in the key elements such as buttons, headings, nav links and the social footer links.
+  Conversely, I made a deliberate decision to avoid dark, heavy block colours which would detract from the key themes.   
+
+* Typography - The chosen font is Gaegu which has a quirky handwritten look which lends itself to rendering both jokes and quotes.
+  I chose to use this across the whole site as it gives a lightness of touch and conveys the site's meaning in both headings and in smaller content. 
+
+* Imagery - I wanted to use professional images that would most effectively complement the jokes and quotes.
+   There is huge scope to add to the images presented in the site and the potential to develop them further as mentioned in features to implement below.  
+  
+
+
 ## **Features**
 
 * The site has clear, simple and easy to find navigation.
@@ -112,7 +127,7 @@ There are a number of carefully chosen features on the homepage:
 
 * There is a welcome message at the top of the page to quickly introduce the purpose of the site and guide the user to the main features. 
 
-* Scrolling down the user comes to the joke section first with an image carousel of funny images.
+* Scrolling down, the user comes to the joke section first with an image carousel of funny images.
 
 * Directly below is a heading that directs the user to select a joke category (via the dropdown) and click the button to display consecutive jokes. This has all been kept deliberately simple and intuitive.
 
@@ -148,12 +163,15 @@ When considering the trade off between importance and viability, the following f
 
 * Search & Save functionality - I would like to add this feature so that users could view, add or share their favourites from the site. 
 
+* Image submissions - I would like to develop the images side of the site and offer users the ability to upload and display their own funny or inspiring images. 
+
+## **Languages Used** 
+* HTML, CSS and Javascript are used in this project.
 
 ## **Technologies Used**
 * [Quotable API](https://github.com/lukePeavey/quotable) was the api used for the quotes section.
 * [Official Joke API](https://github.com/15Dkatz/official_joke_api) was the api used for the jokes section.
 * [Gitpod](https://www.gitpod.io/) Gitpod IDE was used to develop the website.
-* HTML, CSS and Javascript are used in this project.
 * [Bootstrap](https://getbootstrap.com/) framework is used to make the website responsive on all devices.
 * [Layoutit](https://www.layoutit.com/build) is a tool used to help visualize Bootstrap grid layouts.
 * [FontAwesome](https://fontawesome.com/v4.7.0/) is used to provide social media icons.

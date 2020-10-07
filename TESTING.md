@@ -138,7 +138,8 @@ The following tests were carried out to confirm that all interactive parts of th
 
 	iii. Click each of the navigation links to verify if the active page shows as selected with dark text. 
 
-	iv. Click on all the other pages nav links and then click on the logo image to verify if this returns the user to the homepage.
+	iv. Click on all the other pages nav links and then click on the logo image to verify if this returns the
+        user to the homepage.
 
     v. Hover over the nav links to test the colour changes to correct blue. 
 
@@ -150,15 +151,19 @@ The above tests were carried out and no errors were found.
 
 	ii. Click on the carousel’s arrows to verify that the image moves successfully to the next and previous slide.
 
-The above tests were carried out and a small error was found with the arrows not showing up properly on the tablet or desktop whilst displaying and functioning correctly on mobile devices. (See issues below)
+The above tests were carried out and a small error was found with the arrows not showing up properly on the tablet
+or desktop whilst displaying and functioning correctly on mobile devices. (See issues below)
 
 **3. Jokes & Quotes generators**
 
-	i. Click on the small arrows in the jokes dropdown menu and select the first item listed as programming. Now click the button and verify a programming joke is displayed.  
+	i. Click on the small arrows in the jokes dropdown menu and select the first item listed as programming.
+       Now click the button and verify a programming joke is displayed.  
 
-	ii. Repeat step one above and then continue to click the joke button to verify if consecutive jokes are returned without error. 
+	ii. Repeat step one above and then continue to click the joke button to verify if consecutive jokes are
+        returned without error. 
 
-	iii. Now repeat steps one and two above for all items in both joke and quote dropdown menus to verify if all menu items behave as expected. 
+	iii. Now repeat steps one and two above for all items in both joke and quote dropdown menus to verify if 
+         all menu items behave as expected. 
 
     iv. Hover the cursor over the generator buttons to verify if they change colour.
 
@@ -170,7 +175,8 @@ The above tests were carried out and no errors were found.
 
 	i. Hover over the images in the lightbox to verify if the shadow is activated.
 
-	ii. Click on the individual gallery images to verify if the image opens in a separate page with blank background and thumbnails are displayed below. 
+	ii. Click on the individual gallery images to verify if the image opens in a separate page with blank background and 
+        thumbnails are displayed below. 
 
 	iii. In the open lightbox, click on the arrows to verify if the image moves to the next and previous slide as expected. 
 
@@ -202,18 +208,22 @@ The above tests were carried out and no errors were found.
 
 **Mobile:**
 
-* On mobile devices the navbar collapses to a navbar toggler or hamburger icon. Clicking this produces a dropdown menu which displays the navigation links to all pages on the website.
+* On mobile devices the navbar collapses to a navbar toggler or hamburger icon.
+  Clicking this produces a dropdown menu which displays the navigation links to all pages on the website.
 * All images in the carousel display at close to full width of the screen in a single column.
 * The dropdown menus display at close to the full screen width. 
-* The 4 lightbox images on the homepage display at the screen width whilst maintaining the correct proportions and spacing. They open up to full width in the modal pop-up with correct dimensions. 
+* The 4 lightbox images on the homepage display at the screen width whilst maintaining the correct proportions and spacing.
+  They open up to full width in the modal pop-up with correct dimensions. 
 * The contact form displays at close to the full width of the screen size.
 
 **Tablets:**
 
-* On tablets such as the iPad the navbar collapses to a navbar toggler or hamburger icon as with mobile above. Clicking this produces a dropdown menu which displays the navigation links to all pages on the website.
+* On tablets such as the iPad the navbar collapses to a navbar toggler or hamburger icon as with mobile above.
+  Clicking this produces a dropdown menu which displays the navigation links to all pages on the website.
 * On iPad Pro the full navbar is shown. 
 * On iPad and iPad Pro the dropdown menus display at close to the full screen width. 
-* The 4 lightbox images on the homepage display at close to full screen width whilst maintaining the correct proportions and spacing. They open up to full width in the modal pop-up with correct dimensions. 
+* The 4 lightbox images on the homepage display at close to full screen width whilst maintaining the correct proportions and spacing.
+  They open up to full width in the modal pop-up with correct dimensions. 
 * The contact form displays at close to the full width of the screen size.
 
 **Desktop:**
