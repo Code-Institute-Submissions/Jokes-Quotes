@@ -13,11 +13,9 @@ The exact steps are as follows:
  7. Finally, the random quote is displayed to the user via the renderQuoteToUser function.
  */
 
-
 let quoteTypeSelector = ["inspirational", "famous-quotes", "life", "love", "friendship", "wisdom", "technology"];
 let quote_result = document.getElementById("quote_result");
 let quote_btn = document.getElementById("quote_btn");
-
 
 quote_btn.addEventListener('click', selectQuote);
 

@@ -56,7 +56,6 @@ function createTypeList(data) {
 }
 createTypeList();
 
-
 // Code below for the lightbox on the homepage was copied from W3 Schools. https://www.w3schools.com/howto/howto_js_lightbox.asp 
 // I also used some explanations from here https://www.freecodecamp.org/news/how-to-create-a-lightbox-using-html-css-and-javascript/
 
